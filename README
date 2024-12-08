@@ -57,32 +57,43 @@ Run minisat with same heuristics as version 2.0:
 
 > minisat <cnf-file> -no-luby -rinc=1.5 -phase-saving=0 -rnd-freq=0.02
 
+Organigram:
+Anghel Costel-Junior: Tested  Equivalence-Chain-Principle benchmark family, tested particular cases for benchmarks, identified benchmark results patterns, described results and wrote/generated bibliography.
 
-Saptamana 10: Team sync regarding final project version
+Coroian Dan-Marius: Tested  Tseitin-Formulas benchmark family, identified possible improvements, described reults, developed script used in benchmark running.
+
+Coverca Elena-Daniela: Analysed and identified main classes, data structures and alogirthms, documentating the source code.
+
+Bogdan Simina: Wrote summary and introduction, installation guide for MiniSat, did the UML diagram for source code. 
+
+
+
+
+Week 10: Team sync regarding final project version
 Coroian Dan-Marius: Participated in discussion to establish future tasks.
 Coverca Elena-Daniela: Participated in discussion to establish future tasks.
 Anghel Costel-Junior: Participated in discussion to establish future tasks.
 Bogdan Simina: Participated in discussion to establish future tasks.
 
-Saptamana 11:
+Week  11:
 Coroian Dan-Marius: 
 Coverca Elena-Daniela:
 Anghel Costel-Junior:
 Bogdan Simina:
 
-Saptamana 12:
+Week 12:
 Coroian Dan-Marius: 
 Coverca Elena-Daniela:
 Anghel Costel-Junior:
 Bogdan Simina:
 
-Saptamana 13:
+Week 13:
 Coroian Dan-Marius: 
 Coverca Elena-Daniela:
 Anghel Costel-Junior:
 Bogdan Simina:
 
-Saptamana 14:
+Week 14:
 Coroian Dan-Marius: 
 Coverca Elena-Daniela:
 Anghel Costel-Junior:
