@@ -333,7 +333,7 @@ void Solver::analyze(CRef confl, vec<Lit>& out_learnt, int& out_btlevel)
 
     }while (pathC > 0);
     out_learnt[0] = ~p;
-
+    Lit uip = out_learnt[0];
     // Simplify conflict clause:
     //
     int i, j;
@@ -383,6 +383,9 @@ void Solver::analyze(CRef confl, vec<Lit>& out_learnt, int& out_btlevel)
     int counter = 0;
    
     FILE* outfile = fopen("learned_clauses.txt", "a");
+    fprintf(outfile, "UIP: ");
+    fprintf(outfile, "%d", uip);
+    fprintf(outfile, "--->");
     fprintf(outfile, "Learned clause: ");
     for (int i = 0; i < out_learnt.size(); i++) {
         fprintf(outfile, "%d ", (var(out_learnt[i]) + 1) * (sign(out_learnt[i]) ? -1 : 1));
